@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: rgb(65, 64, 64);
+}
+h2{
+    color: white;
+}
+table{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+}
+
+ tr{
+     display: flex;   
+     height: 100px;
+     flex-direction: row;
+}        
+
+.top{     
+   
+    background-color: blue;   
+    width: 200px;  
+    margin-left: 200px;
+    
+}
+
+.medium{
+    background-color: red; 
+    width: 400px;          
+    margin-left: 100px;
+}
+
+.bot{
+    background-color: green;
+    width: 600px;            
+}
