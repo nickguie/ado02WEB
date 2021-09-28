@@ -9,11 +9,13 @@ h1{
 
 .galeriaImagens{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
-.galeriaImagens div{
+.galeriaImagens div{    
     background-color: blue;
-    border: solid 3px black;
+    border: solid 3px black;    
+    height: 100px;
+    width: 100px;
 }
