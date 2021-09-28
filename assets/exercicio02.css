@@ -93,7 +93,12 @@ body{
     position: absolute;    
 }
 
-@media screen and (orientation: portrait) {  
+@media screen and (orientation: portrait) { 
+    
+    .titulo{
+        margin-left: 30%;
+    }
+
     .principal{
         display: flex;
         flex-direction: row;       
@@ -109,7 +114,7 @@ body{
         list-style: none;        
         border-right: solid 0px black; 
         border-top: solid 3px black;
-        font-size:11pt;    
+        font-size:9pt;    
         font-weight:bold;
         width:100%;
         position:absolute;
