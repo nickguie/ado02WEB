@@ -3,6 +3,10 @@ body{
     text-align: center;
 }
 
+.titulo{
+    color: white;
+}
+
 .tabelaLivro table, th, td{
     color: white;
     border: 1px solid white;
@@ -17,18 +21,22 @@ body{
 
 .tabelaLivro td:nth-child(1) {
     text-align: left;
+    background-color: purple;
 }
 
 .tabelaLivro td:nth-child(2) {
     text-align: left;
+    background-color: goldenrod;
 }
 
 .tabelaLivro td:nth-child(3) {
     text-align: left;
+    background-color: crimson;
 }
 
 .tabelaLivro td:nth-child(4) {
 	text-align: right;
+    background-color: dimgrey;
 }
 
 

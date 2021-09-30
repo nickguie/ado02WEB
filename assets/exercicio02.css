@@ -1,6 +1,7 @@
 body{
     margin: 0;    
     background-color: darkgrey;
+    overflow: hidden;
 }
 
 .cabecalho{
@@ -63,18 +64,22 @@ body{
 .principal{
     display: flex;
     flex-direction: column;
+    
 }
 
 .menuLateral{
+    
     display: grid;    
-    grid-template-rows: 500px;
+    grid-template-rows: 280%;
     grid-template-columns: 20% ;
+    
 }
 .menuLateral ul {
     list-style: none;
     margin: 0;
     padding: 0;
     border-right: solid 4px black; 
+   
 }
 
 .menuLateral li{
@@ -118,7 +123,7 @@ body{
         font-weight:bold;
         width:100%;
         position:absolute;
-        bottom:8%;   
+        bottom:6%;   
         justify-content: space-between;        
     }
     
