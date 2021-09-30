@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+header{
+    border-bottom:solid 4px black;
+    background-color: rgb(77, 0, 77);
+    height: 50px;
+}
+
 body{
     background-color: rgb(65, 64, 64);
     text-align: center;
@@ -22,7 +28,7 @@ ul{
 
 .galeriaImagens{
     border: solid 3px black;
-    margin-top: 0;
+    margin-top: 0.8%;
 }
 
 .galeriaImagens li{

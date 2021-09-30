@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom:solid 4px black;
+    background-color: rgb(77, 0, 77);
+    height: 50px;
+    color: #fff;
+}
+
+body{
+    text-align: center;    
+    background-color: rgb(65, 64, 64);
+}
+
+.diagrama{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.diagrama img{
+    width: 590px;
+    height: 482px;
+    border: solid 3px black;
+}
